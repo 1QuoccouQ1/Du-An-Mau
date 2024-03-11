@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/* Định dạng phần tổng (container) */
+.tong {
+    /* background: #f2f2f2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Định dạng hộp đăng ký */
+.login-box {
+    background: #fff;
+    padding: 60px 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Định dạng phần tiêu đề "Sign up" */
+.login-box > p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Định dạng các hộp nhập thông tin */
+.user-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.user-box img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.user-box label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Định dạng nút đăng ký */
+.click {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 30px 0;
+
+}
+
+.click:hover {
+    background-color: #0056b3;
+}
+
+/* Định dạng thông báo lỗi hoặc thành công */
+span {
+    color: red;
+    font-weight: bold;
+}
+
+/* Định dạng liên kết "Sign up!" */
+.a2 {
+    color: #007bff;
+}
+
+
+.message {
+    font-size: 15px  !important ;
+}
